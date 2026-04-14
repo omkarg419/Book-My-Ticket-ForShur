@@ -310,6 +310,33 @@ Defined in `package.json`:
 | `nodemon` | ^3.1.14 | Auto-restart on file change |
  
 ---
+## API Output Screenshots
+### 🔐 Authentication APIs
+
+
+##### /api/auth/register (📌 Register User)
+![Register API](./imgs/register.png)
+
+##### 📩 Email Verification (Mailtrap)
+
+After registration, user receives a verification email via Mailtrap.
+![Register API](./imgs/verify.png)
+
+##### /api/auth/login (🔑 Login User)
+![Register API](./imgs/login.png)
+
+### 🎟️ Booking APIs
+##### /api/booking/seats (💺 Check empty seats)
+![Register API](./imgs/seats.png)
+
+##### /api/booking/seats/book/:seatId (🪑 Seat booking)
+![Register API](./imgs/bookSeats.png)
+
+##### 📧 Confirmation Email
+After successful booking, a confirmation email is sent to the user.
+
+![Register API](./imgs/confirmSearEmail.png)
+---
 
 ## 👨‍💻 Author
  
