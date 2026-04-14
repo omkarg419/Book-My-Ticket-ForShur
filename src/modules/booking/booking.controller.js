@@ -16,7 +16,7 @@ const getAllSeats = async (req, res) => {
 const bookSeat = async (req, res) => {
 	try {
 		const seatId = parseInt(req.params.seatId);
-		const { name, email } = req.body;
+		const { name, email } = req.user;
 
 		const bookedSeat = await bookingService.bookSeat(seatId, name);
 
