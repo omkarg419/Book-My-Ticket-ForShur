@@ -330,12 +330,15 @@ After registration, user receives a verification email via Mailtrap.
 ![Register API](./imgs/seats.png)
 
 ##### /api/booking/seats/book/:seatId (🪑 Seat booking)
-![Register API](./imgs/bookSeats.png)
+![Register API](./imgs/beforbook.png)
 
 ##### 📧 Confirmation Email
 After successful booking, a confirmation email is sent to the user.
 
 ![Register API](./imgs/confirmSearEmail.png)
+
+##### /api/booking/seats/book/:seatId (🪑 Seat booking after)
+![Register API](./imgs/seatsafterbook.png)
 ---
 
 ## 👨‍💻 Author
