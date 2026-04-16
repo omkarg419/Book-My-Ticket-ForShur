@@ -337,7 +337,7 @@ After successful booking, a confirmation email is sent to the user.
 
 ![Register API](./imgs/confirmSearEmail.png)
 
-##### /api/booking/seats/book/:seatId (🪑 Seat booking after)
+##### /api/booking/seats  (🪑 Seat booking after)
 ![Register API](./imgs/seatsafterbook.png)
 ---
 
