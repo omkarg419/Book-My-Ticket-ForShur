@@ -327,10 +327,10 @@ After registration, user receives a verification email via Mailtrap.
 
 ### 🎟️ Booking APIs
 ##### /api/booking/seats (💺 Check empty seats)
-![Register API](./imgs/seats.png)
+![Register API](./imgs/beforbook.png)
 
 ##### /api/booking/seats/book/:seatId (🪑 Seat booking)
-![Register API](./imgs/beforbook.png)
+![Register API](./imgs/bookSeats.png)
 
 ##### 📧 Confirmation Email
 After successful booking, a confirmation email is sent to the user.
